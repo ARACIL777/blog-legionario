@@ -22,22 +22,23 @@ Rejoignez un ancien du *Tercio Duque de Alba II* de la Légion espagnole pour un
 
 ---
 
-🔄 Alternance hebdomadaire :
-🗓️ Semaine A — 7h00 – 9h00
-🗓️ Semaine B — 19h30 – 21h30
+🔄 Planning hebdomadaire :
+🗓️ Lundi, mercredi, vendredi — Callisthénie, 17h – 18h
+🗓️ Mardi, jeudi — Randonnée militaire, 17h – 20h
+🗓️ Samedi — Randonnée militaire, 7h30 – 9h
+🗓️ Dimanche — Callisthénie, 7h30 – 9h
 
 📍 Salle « Les Amoureux » — Nîmes
 🗺️ 39 Rue des Amoureux, 30000 Nîmes (Google Maps)
 
 ---
 
-🏋️ Déroulement : 15 min échauffement + 10 km marche/rando
+🏋️ Callisthénie — 1 heure : pompes, abdos, triceps, barre fixe
+🥾 Randonnée militaire — 2 à 3 heures : sac de 5 kg obligatoire (7 à 10 kg recommandés)
 
-📊 Deux niveaux :
-👤 Civil — Marche + 90 min rando
-🔥 Intensif — Séries 3×10 + sprint final (sac 2,5–6 kg)
+👤 Pas encore le niveau ? Un circuit débutants existe : progression à votre rythme.
 
-🎒 À prévoir : sac combat 5 kg, carte Vitale, tenue sport, eau
+🎒 À prévoir : sac de combat 5 kg (obligatoire), carte Vitale, tenue sport, eau
 
 ⚔️ Règles : pas de selfies, pas de photos, silence, discipline
 
@@ -48,6 +49,6 @@ Rejoignez un ancien du *Tercio Duque de Alba II* de la Légion espagnole pour un
 🌐 lalegion101.com | 📱 Blog: aracil777.github.io/blog-legionario
 
 *Je reste à votre disposition pour tout complément.*
-*Contactez-moi directement sur Telegram: https://t.me/Aracil_pro_bot*
+*Contactez-moi directement sur WhatsApp : +1 929 723 3970 — https://wa.me/19297233970*
 
 Personal Assistant to M. Aracil

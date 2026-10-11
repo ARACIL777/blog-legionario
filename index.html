@@ -18,10 +18,14 @@
   h3 { color:#b8960c; margin:25px 0 10px; }
   img { max-width:100%; border-radius:6px; margin:15px 0; border:3px solid #333; }
   .info-box { background:#2a2a2a; border-left:4px solid #c9a84c; padding:20px; margin:20px 0; border-radius:4px; }
-  table { width:100%; border-collapse:collapse; margin:20px 0; }
-  th, td { border:1px solid #444; padding:12px; text-align:left; }
-  th { background:#c9a84c; color:#1a1a1a; }
-  tr:nth-child(even) { background:#252525; }
+  .planning { margin:25px 0; border-top:1px solid #3a3a3a; }
+  .planning .jour { display:grid; grid-template-columns:1fr auto; align-items:baseline; gap:18px; padding:14px 16px 14px 19px; border-bottom:1px solid #3a3a3a; border-left:3px solid #c9a84c; }
+  .planning .jour--rando { border-left-color:#7f8c99; }
+  .planning .jour-quand { display:grid; grid-template-columns:110px 1fr; gap:14px; align-items:baseline; }
+  .planning .jour-nom { font-weight:bold; }
+  .planning .jour-type { color:#b9ad95; }
+  .planning .jour-heure { color:#c9a84c; white-space:nowrap; font-variant-numeric:tabular-nums; }
+  .planning .weekend { padding:18px 16px 8px 19px; color:#7a7a7a; font-style:italic; font-size:0.85em; }
   .cta { text-align:center; padding:40px; background:#2a2a2a; border-radius:8px; margin:30px 0; }
   .cta a { display:inline-block; padding:15px 40px; background:#c9a84c; color:#1a1a1a; text-decoration:none; font-weight:bold; border-radius:4px; margin:10px; }
   .cta a:hover { background:#d4b35c; }
@@ -29,6 +33,11 @@
   .footer { text-align:center; color:#666; padding:30px; font-size:0.9em; }
   ul { margin:15px 0 15px 25px; }
   li { margin:8px 0; }
+  @media (max-width:560px) {
+    .planning .jour { grid-template-columns:1fr; gap:6px; }
+    .planning .jour-quand { grid-template-columns:1fr; gap:2px; }
+    .planning .jour-type { font-size:0.95em; }
+  }
 </style>
 </head>
 <body>
@@ -37,7 +46,7 @@
 <div class="hero">
 <h1>DERNIÈRE ACTIVITÉ CARITATIVE<br />DE M. ARACIL EN EUROPE</h1>
 <p>« Vous voulez repousser vos limites ? »</p>
-<p>Rejoignez un ancien du Tercio Duque de Alba II<br />de la Légion espagnole pour un entraînement authentique<br />de callisthénie militaire.</p>
+<p>Rejoignez un ancien du Tercio Duque de Alba II<br />de la Légion espagnole pour un entraînement authentique<br />de callisthénie et de randonnée militaires.</p>
 <p><strong>LEGIONARIO ARACIL</strong></p>
 </div>
 <div class="info-box">
@@ -45,35 +54,37 @@
 <p><strong>Adresse :</strong> 39 Rue des Amoureux, 30000 Nîmes</p>
 <p><strong>🗺 :</strong> <a style="color: #c9a84c;" href="https://maps.app.goo.gl/uwL9RkFzoMPTrVtv5" target="_blank">Voir sur Google Maps</a></p>
 </div>
-<h2>🔄 Alternance Hebdomadaire</h2>
-<p>L'activité fonctionne en alternance hebdomadaire :</p>
+<h2>Planning de la semaine</h2>
+<p>Deux formats alternent : callisthénie en salle (1 heure) et randonnée militaire (2 à 3 heures).</p>
+<div class="planning">
+<div class="jour"><div class="jour-quand"><span class="jour-nom">Lundi</span><span class="jour-type">Callisthénie</span></div><div class="jour-heure">17h – 18h</div></div>
+<div class="jour jour--rando"><div class="jour-quand"><span class="jour-nom">Mardi</span><span class="jour-type">Randonnée militaire</span></div><div class="jour-heure">17h – 20h</div></div>
+<div class="jour"><div class="jour-quand"><span class="jour-nom">Mercredi</span><span class="jour-type">Callisthénie</span></div><div class="jour-heure">17h – 18h</div></div>
+<div class="jour jour--rando"><div class="jour-quand"><span class="jour-nom">Jeudi</span><span class="jour-type">Randonnée militaire</span></div><div class="jour-heure">17h – 20h</div></div>
+<div class="jour"><div class="jour-quand"><span class="jour-nom">Vendredi</span><span class="jour-type">Callisthénie</span></div><div class="jour-heure">17h – 18h</div></div>
+<div class="weekend">Week-end</div>
+<div class="jour jour--rando"><div class="jour-quand"><span class="jour-nom">Samedi</span><span class="jour-type">Randonnée militaire</span></div><div class="jour-heure">7h30 – 9h</div></div>
+<div class="jour"><div class="jour-quand"><span class="jour-nom">Dimanche</span><span class="jour-type">Callisthénie</span></div><div class="jour-heure">7h30 – 9h</div></div>
+</div>
+<h2>Les deux formats</h2>
 <ul>
-<li><strong>Semaine A :</strong> Tôt le matin — 7h00 à 9h00</li>
-<li><strong>Semaine B :</strong> Après-midi / Soirée — 19h30 à 21h30</li>
+<li><strong>Callisthénie — 1 heure.</strong> En salle : pompes, abdos, triceps, barre fixe.</li>
+<li><strong>Randonnée militaire — 2 à 3 heures.</strong> Sac de 5 kg obligatoire ; 7 à 10 kg recommandés.</li>
 </ul>
-<h2>💪 Déroulement de la Séance</h2>
-<ol>
-<li><strong>Échauffement :</strong> 15 min (pompes, abdos, triceps, barre fixe)</li>
-<li><strong>Marche ou randonnée contrôlée :</strong> 10 km (silence, pas de photos)</li>
-</ol>
-<img src="images/Marche ou randonnée contrôlée.png" alt="Marche ou randonnée contrôlée" />
-<h2>🎯 Deux Niveaux au Choix</h2>
-<table>
-<tbody>
-<tr><th>Niveau</th><th>Contenu</th></tr>
-<tr><td>👤 <strong>Civil</strong></td><td>Marche + 90 min de randonnée</td></tr>
-<tr><td>🔥 <strong>Intensif</strong></td><td>Séries 3×10 + sprint final avec sac de 2,5 kg ou 5–6 kg</td></tr>
-</tbody>
-</table>
+<img src="images/Marche ou randonnée contrôlée.png" alt="Randonnée militaire" />
+<h2>Débutants</h2>
+<div class="info-box">
+<p>Pas encore le niveau pour suivre le groupe ? Un <strong>circuit débutants</strong> existe. Vous y progressez à votre rythme avant de rejoindre l'entraînement complet.</p>
+</div>
 <img src="images/Salida de la carrera de: Adultos.jpg" alt="Participants" /> <img src="images/nueva-imagen.jpg" alt="Activité caritative" />
-<h2>🎒 À Prévoir</h2>
+<h2>À Prévoir</h2>
 <ul>
-<li>🎒 Sac de combat 5 kg (recommandé)</li>
+<li>🎒 Sac de combat 5 kg — <strong>obligatoire</strong> (7 à 10 kg recommandés pour la randonnée)</li>
 <li>📋 Copie de votre carte Vitale</li>
 <li>👕 Tenue de sport et eau</li>
 </ul>
 <img src="images/Legionario entrenando.png" alt="Legionario entrenando" />
-<h2>⚔️ Règles</h2>
+<h2>Règles</h2>
 <div class="rules">
 <ul>
 <li>📵 Pas de selfies, pas de photos</li>
@@ -81,7 +92,7 @@
 <li>🥇 Discipline et esprit légionnaire</li>
 </ul>
 </div>
-<h2>🔥 Places Illimitées</h2>
+<h2>Places Illimitées</h2>
 <div class="cta">
 <p style="font-size: 1.3em; margin-bottom: 20px;">Prêt à repousser vos limites ?</p>
 <a href="https://www.lalegion101.com/" target="_blank">🌐 Legion 101 Km</a> <a href="https://wa.me/19297233970" target="_blank">📲 WhatsApp +1 929 723 3970</a></div>
