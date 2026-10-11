@@ -34,7 +34,7 @@ Rejoignez un ancien du *Tercio Duque de Alba II* de la Légion espagnole pour un
 ---
 
 🏋️ Callisthénie — 1 heure : pompes, abdos, triceps, barre fixe
-🥾 Randonnée militaire — 2 à 3 heures : sac de 5 kg obligatoire (7 à 10 kg recommandés)
+🥾 Randonnée militaire — 2h à 2h30 : sac de 5 kg obligatoire (7 à 10 kg recommandés)
 
 👤 Pas encore le niveau ? Un circuit débutants existe : progression à votre rythme.
 
