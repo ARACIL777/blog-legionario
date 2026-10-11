@@ -24,8 +24,8 @@ Rejoignez un ancien du *Tercio Duque de Alba II* de la Légion espagnole pour un
 
 🔄 Planning hebdomadaire :
 🗓️ Lundi, mercredi, vendredi — Callisthénie, 17h – 18h
-🗓️ Mardi, jeudi — Randonnée militaire, 17h – 20h
-🗓️ Samedi — Randonnée militaire, 7h30 – 9h
+🗓️ Mardi, jeudi — Randonnée militaire, 17h – 19h30
+🗓️ Samedi — Randonnée militaire, 7h30 – 9h30
 🗓️ Dimanche — Callisthénie, 7h30 – 9h
 
 📍 Salle « Les Amoureux » — Nîmes
